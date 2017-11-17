@@ -1,0 +1,5 @@
+/* The p is for paragraph, style assigned to the p is applied to all paragraphs */
+p {
+    color: green;
+    font-size: 300%;
+}
