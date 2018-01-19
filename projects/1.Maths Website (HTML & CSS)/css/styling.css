@@ -14,7 +14,7 @@
 h1 a{
     font-size: 50px;
     font-weight: 100;
-    color: #86188f;
+    color: #C34FD8;
     text-decoration: none;
 }
 #searchbox {
@@ -58,6 +58,10 @@ h1 a{
     padding: 7px 0px
 }
 
+ul {
+    list-style: none;
+}
+
 #menu ul li{
     float: left;
     padding: 0 30px;
@@ -75,10 +79,36 @@ h1 a{
     font-size: 17px;
     color: #5d12e7;
     line-height: 30px;
+    -webkit-transition: font-size 1s ease;
+    -moz-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+
 }
 
-ul {
-    list-style: none;
+#menu ul li a:hover, #menu ul li a.active {
+    font-size: 20pix;
+    font-weight: bold;
+    color: #C34FD8;
 }
 
 
+
+#introduction {
+    background: linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
