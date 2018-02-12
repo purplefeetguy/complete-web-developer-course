@@ -126,6 +126,10 @@ ul {
     font-size: 30px;
 }
 
+.sidebar ul{
+    padding-top: 8px;
+}
+
 .sidebar ul li a{
     text-decoration: none;
     font-size: 20px;
@@ -149,17 +153,17 @@ ul {
     float: left;
 }
 
-#leftsidebar ul{
-    padding-top: 8px;
-}
-
 #leftsidebar ul li{
-    padding-bottom: 6px;
-    padding-left: 10px;
+    padding: 4px 0 4px 10px;
     list-style-image: url(../images/small-arrow.png);
 }
 
 #rightsidebar{
     float: right;
     font-size: 20px;
+}
+
+#rightsidebar ul li{
+    padding: 17px 0 17px 70px;
+    background: url(../images/small-check.png) no-repeat left center;
 }
