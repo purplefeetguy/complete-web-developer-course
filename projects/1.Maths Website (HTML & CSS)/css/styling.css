@@ -1,4 +1,8 @@
 
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
 #container {
     width: 1015px;
     border: 1px solid grey;
@@ -11,23 +15,24 @@
     padding: 10px 0;
 }
 
+#brand {
+    float: left;
+}
+
 h1 a{
     font-size: 50px;
     font-weight: 100;
     color: #C34FD8;
     text-decoration: none;
 }
-#searchbox {
+
+#searchBox {
     float: right;
     background: linear-gradient(#E4F289, #B7E953);
     width: 400px;
     height: 50px;
     padding: 20px 20px 0 20px;
     margin-top: 20px
-}
-
-#brand {
-    float: left;
 }
 
 .text {
@@ -37,6 +42,7 @@ h1 a{
     font-size: 15px;
     color: #E36ABC;
     background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #C8D03E;
 }
 
 .submit {
@@ -46,9 +52,10 @@ h1 a{
     color: white;
     background: #A751D6;
     font-size: 15px;
+    border: 1px solid #DCD5E1;
 }
 
-#clear {
+.clear {
     clear: both;
 }
 
@@ -93,10 +100,11 @@ ul {
     color: #C34FD8;
 }
 
-
-
 #introduction {
     background: linear-gradient(#E5F2BB, #B7E952);
+    background: -webkit-linear-gradient(#E5F2BB, #B7E952); 
+    background: -o-linear-gradient(#E5F2BB, #B7E952); 
+    background: -moz-linear-gradient(#E5F2BB, #B7E952); 
     padding: 30px;
     margin: 16px 0;
 }
@@ -166,4 +174,14 @@ ul {
 #rightsidebar ul li{
     padding: 17px 0 17px 70px;
     background: url(../images/small-check.png) no-repeat left center;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    background: -webkit-linear-gradient(#F6F390, #D5D533);
+    background: -o-linear-gradient(#F6F390, #D5D533);
+    background: -moz-linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 15px;
 }
